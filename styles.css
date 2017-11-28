@@ -1,0 +1,47 @@
+body, input, button {
+  font-size: 20px;
+  font-family: "Helvetica", sans-serif;
+}
+
+button {
+  padding: 0.3em;
+}
+
+button a {
+  text-decoration: none;
+  color: #000;
+}
+
+#userslist {
+  margin-top: 1.5em;  
+}
+
+#userslist, #logout-button, #profile-button, #profile {
+  display: none;
+}
+
+
+#displayname {
+  font-weight: bold;
+}
+
+#notif {
+  display: none;
+  color: red;
+  font-weight: bold;
+  padding: 1em;
+  border: 1px solid red;
+}
+
+#notif-success {
+  display: none;
+  color: green;
+  font-weight: bold;
+  padding: 1em;
+  border: 1px solid green;
+}
+
+.profilephoto {
+  width: 200px;
+  height: auto;
+}

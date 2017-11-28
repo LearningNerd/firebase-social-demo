@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Firebase Test Site</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js" defer></script>
+    <script src="/userprofile.js" defer></script>
+  </head>
+  <body>
+    
+    <header>
+      <p id="notif">You must log in first before you can set up your user profile! <button id="login-button">Signup / Login</button></p>
+      
+      <button><a href="https://ltcla-social-test.glitch.me">Back to Homepage</a></button>
+      
+      <button id="logout-button">Logout</button>
+    </header>
+    
+    <div id="profile">
+      
+      <p id="notif-success">Your profile has been updated! Now meet your new study partners: <button><a href="https://ltcla-social-test.glitch.me">Back to Homepage</a></button></p>
+      
+      <h1>Your Profile</h1> 
+      
+      <p>              
+        <span>Your Display Name (Edit through GitHub):</span>
+        <span id="displayname">...</span>
+      </p>
+
+      <p>Your Profile Photo (Edit through GitHub):</p>
+      <img id="profilephoto" width="200" src="#">
+
+      <p>              
+        <span>What's your favorite programming language?</span>
+        <input type="text" id="favlanguage">
+      </p>
+
+      <button id="update" style="display:block;">Create / Update Your Profile</button>    
+
+    </div>
+    
+  </body>
+</html>
